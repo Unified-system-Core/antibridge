@@ -33,7 +33,7 @@ Double-click `SETUP.bat` to install dependencies (only needed once).
 Double-click `OPEN_ANTIGRAVITY.vbs` - this opens Antigravity with remote debugging enabled.
 
 ### 3. Start Server
-Double-click `START.bat` - this starts the AntiBridge server.
+Right-click and select 'Run as administrator' `START.bat` - this starts the AntiBridge server.
 
 ### 4. Open in Browser
 - **Same PC:** http://localhost:8000
