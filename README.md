@@ -1,9 +1,8 @@
-# <img src="assets/icon-small.png" width="32" height="32" alt="icon"> AntiBridge v1.2.0
+# 🌉 AntiBridge v1.2.0
 
 **A bridge between you and Antigravity.**
 
-Control your AI coding agent from any browser on the same network.  
-🌐 **Remote Access:** Use [Tailscale](https://tailscale.com/) to access from anywhere outside your LAN!
+Control your AI coding agent from any browser on the same network.
 
 ![AntiBridge Logo](assets/Logo_AntiBridge.png)
 
@@ -16,7 +15,6 @@ Control your AI coding agent from any browser on the same network.
 - 💾 **Chat History** - Your conversations persist across sessions
 - 🔄 **Auto-reconnect** - Automatically reconnects when connection drops
 - 🌓 **Dark Theme** - Easy on the eyes for long coding sessions
-- 🌐 **Remote Access** - Use Tailscale for secure access from anywhere
 
 ---
 
@@ -29,7 +27,7 @@ Double-click `SETUP.bat` to install dependencies (only needed once).
 Double-click `OPEN_ANTIGRAVITY.vbs` - this opens Antigravity with remote debugging enabled.
 
 ### 3. Start Server
-Right-click and select 'Run as administrator' `START.bat` - this starts the AntiBridge server.
+Double-click `START.bat` - this starts the AntiBridge server.
 
 ### 4. Open in Browser
 - **Same PC:** http://localhost:8000
@@ -39,41 +37,11 @@ To find your PC's IP address, open Command Prompt and run `ipconfig`.
 
 ---
 
-## 🌐 Remote Access with Tailscale
-
-Want to access AntiBridge from outside your home/office network? Use **Tailscale**!
-
-### Setup Steps:
-
-1. **Install Tailscale** on both devices:
-   - PC running AntiBridge: https://tailscale.com/download/windows
-   - Phone/Remote device: https://tailscale.com/download
-
-2. **Login** with the same account on both devices
-
-3. **Get Tailscale IP** of your PC:
-   - Open Tailscale on PC
-   - Note the IP (usually `100.x.x.x`)
-
-4. **Access from anywhere:**
-   ```
-   http://100.x.x.x:8000
-   ```
-
-### Benefits:
-- ✅ **Secure** - End-to-end encrypted connection
-- ✅ **No port forwarding** - Works through NAT
-- ✅ **Free tier** - 100 devices free
-- ✅ **Works on mobile data** - Access from anywhere with internet
-
----
-
 ## 📋 Requirements
 
 - **Node.js 18+** - [Download here](https://nodejs.org/)
 - **Antigravity IDE** - Your AI coding agent
 - **Windows 10/11**
-- **Tailscale** (optional) - For remote access outside LAN
 
 ---
 
@@ -130,7 +98,7 @@ AntiBridge_v1.2.0/
 
 MIT License
 
-Copyright (c) 2026 Linh Ban Banh Bao
+Copyright (c) 2026 Linh Bui (linhbq82@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -148,21 +116,10 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ---
 
-## 🎬 Demo
-
-### 📱 Mobile Control
-<img src="assets/preview.gif" width="600" alt="Mobile Demo">
-
-### 💻 PC VIEW ANTIGRAVITY
-<img src="assets/pc.gif" width="600" alt="PC Demo">
-
----
-
 ## 👨‍💻 Author
 
-**Linh Ban Banh Bao**  
-🌐 [Facebook](https://www.facebook.com/linhbuiart.io.vn/)  
-🔗 [GitHub](https://github.com/linhbanbanhbao/AntiBridge)
+**Linh Bui**  
+📧 linhbq82@gmail.com
 
 ---
 

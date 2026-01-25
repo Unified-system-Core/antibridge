@@ -14,9 +14,7 @@ All notable changes to AntiBridge will be documented in this file.
 - ⚙️ Settings panel with font size and layout scale options
 - 🔄 Restart server button in settings
 - 🌐 **Show IP address on startup** - Hiển thị địa chỉ IP để truy cập từ thiết bị khác
-- 👤 **Author info links** - Facebook và GitHub trong Settings
-- 🖼️ **Custom logo in header** - Logo AntiBridge trong header và README title
-- 🔗 **GitHub repository link** - Link đến repo trong Settings
+- 👤 **Author info links** - Facebook và Email trong Settings
 
 ### Changed
 - Improved WebSocket stability
