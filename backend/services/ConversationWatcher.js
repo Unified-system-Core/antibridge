@@ -12,7 +12,8 @@ class ConversationWatcher extends EventEmitter {
     constructor(eventBus) {
         super();
         this.eventBus = eventBus;
-        this.conversationsPath = path.join(process.env.USERPROFILE, '.gemini', 'antigravity', 'conversations');
+        const homeDir = process.env.HOME || (process.env.HOME || process.env.USERPROFILE);
+        this.conversationsPath = path.join(homeDir, '.gemini', 'antigravity', 'conversations');
         this.watching = false;
         this.lastFileState = new Map(); // filename -> {size, mtime}
         this.pollInterval = null;

@@ -11,7 +11,8 @@ let conversationWatcher = null;
 let lastParsedResponse = '';
 
 // Path to Antigravity conversations
-const CONVERSATIONS_PATH = path.join(process.env.USERPROFILE, '.gemini', 'antigravity', 'conversations');
+const homeDir = process.env.HOME || (process.env.HOME || process.env.USERPROFILE);
+const CONVERSATIONS_PATH = path.join(homeDir, '.gemini', 'antigravity', 'conversations');
 
 /**
  * Parse the clipboard text to extract the last AI response
